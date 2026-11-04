@@ -1,10 +1,11 @@
-function plus(a, b) {
-  console.log(a + b);
-}
+const player = {
+  name: "nico",
+  sayHello: function (otherPersonName) {
+    console.log(`hello, ${otherPersonName}!`);
+  },
+};
 
-function divide(a, b) {
-  console.log(a / b);
-}
-
-plus(5, 3);
-divide(10, 2);
+//console.log(player.name);
+player.sayHello("Dal");
+player.sayHello("ly");
+player.sayHello("nico");
