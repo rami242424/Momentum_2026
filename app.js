@@ -1,9 +1,8 @@
-const a = 5;
-const b = 10;
-let myName = "Micky";
+function sayHello(nameOfPerson, age) {
+  console.log(nameOfPerson, age);
+}
 
-console.log(a + b);
-console.log(`Hello ${myName}`);
-
-myName = "John";
-console.log(`my new name is ${myName}`);
+sayHello("nico", 10);
+sayHello("Dal", 25);
+sayHello("flynn", 30);
+sayHello("ramin", 35);
