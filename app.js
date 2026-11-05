@@ -1,20 +1,7 @@
-const calculate = {
-  add: function (a, b) {
-    console.log(a + b);
-  },
+const age = 96;
+function calculateKrAge(ageOfForeigner) {
+  return ageOfForeigner + 2;
+}
 
-  minus: function (a, b) {
-    console.log(a - b);
-  },
-  multiply: function (a, b) {
-    console.log(a * b);
-  },
-  divide: function (a, b) {
-    console.log(a / b);
-  },
-};
-
-calculate.add(5, 3);
-calculate.minus(5, 3);
-calculate.multiply(5, 3);
-calculate.divide(5, 3);
+const krAge = calculateKrAge(age);
+console.log(krAge);
