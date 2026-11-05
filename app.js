@@ -1,7 +1,3 @@
-const age = 96;
-function calculateKrAge(ageOfForeigner) {
-  return ageOfForeigner + 2;
-}
+const age = parseInt(prompt("Please enter your age"));
 
-const krAge = calculateKrAge(age);
-console.log(krAge);
+console.log(typeof age, age);
