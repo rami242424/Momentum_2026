@@ -47,5 +47,5 @@ function sayHello() {
 const savedToDos = localStorage.getItem(TODOS_KEY);
 if (savedToDos) {
   const parsedToDos = JSON.parse(savedToDos);
-  parsedToDos.forEash();
+  parsedToDos.forEash(sayHello);
 }
