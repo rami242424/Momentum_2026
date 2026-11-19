@@ -37,12 +37,12 @@ function handleToDoSubmit(event) {
 
 toDoForm.addEventListener("submit", handleToDoSubmit);
 
-function sayHello() {
-  console.log("hello");
-}
+// function sayHello() {
+//   console.log("hello");
+// }
 
 const savedToDos = localStorage.getItem(TODOS_KEY);
 if (savedToDos) {
   const parsedToDos = JSON.parse(savedToDos);
-  parsedToDos.forEach(sayHello);
+  //parsedToDos.forEach(sayHello);
 }
