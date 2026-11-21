@@ -37,12 +37,13 @@ function handleToDoSubmit(event) {
 
 toDoForm.addEventListener("submit", handleToDoSubmit);
 
-// function sayHello() {
-//   console.log("hello");
+// function sayHello(item) {
+//   console.log("this is the the turn of", item);
 // }
 
 const savedToDos = localStorage.getItem(TODOS_KEY);
-if (savedToDos) {
+if (savedToDos !== null) {
   const parsedToDos = JSON.parse(savedToDos);
-  //parsedToDos.forEach(sayHello);
+  console.log(parsedToDos, "parsedToDos입니다.");
+  parsedToDos.forEach((item) => console.log("this is the turn of_", item));
 }
